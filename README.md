@@ -50,7 +50,6 @@ AIS Timer is a Python script that tracks the time spent on different application
 5. Save the file and exit.
 
 6. Apply the changes:
-
     ```bash
     source ~/.zshrc
     ```
