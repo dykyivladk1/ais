@@ -54,7 +54,7 @@ AIS Timer is a Python script that tracks the time spent on different application
 
 ### Usage
 
-When first running the script, you will be prompted for your OpenAI API key and your hobby. To start tracking your activity, simply run:
+6. When first running the script, you will be asked for OpenAI API key, and for your hobby. Then to start tracking your activity, simply run:
 
     ```bash
     ais
