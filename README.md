@@ -1,17 +1,14 @@
 # AIS Timer
 
-
 <img src="assets/image.png" alt="Fluxa Logo" width="400"/>
 
-
-
-AIS Timer is a Python script that tracks the time spent on different applications during a coding session. It provides a productivity analysis based on your activity log and your personal hobby.
+AIS Timer is a Python script that tracks the time spent on different applications during a coding session. It provides a productivity analysis based on your activity log and personal hobbies.
 
 ## Features
 
 - Tracks active applications and records the time spent on each.
 - Analyzes productivity using OpenAI's ChatGPT based on your activity log.
-- Displays an activity summary with total time spent on each application.
+- Displays an activity summary with the total time spent on each application.
 
 ## Installation
 
@@ -25,9 +22,9 @@ AIS Timer is a Python script that tracks the time spent on different application
 
 1. Navigate to your home directory:
 
-   ```bash
-   cd ~
-   ```
+    ```bash
+    cd ~
+    ```
 
 2. Clone the repository:
 
@@ -35,7 +32,7 @@ AIS Timer is a Python script that tracks the time spent on different application
     git clone https://github.com/dykyivladk1/ai-timer.git
     ```
 
-3. Open Zsh configuration file:
+3. Open your Zsh configuration file:
 
     ```bash
     nano ~/.zshrc
@@ -47,21 +44,20 @@ AIS Timer is a Python script that tracks the time spent on different application
     alias ais='python3 ~/ai-timer/app.py'
     ```
 
-5. Save the file and exit.
+5. Save the file and exit the editor.
 
 6. Apply the changes:
+
     ```bash
     source ~/.zshrc
     ```
 
-
 ### Usage
 
-When first running the script, you will be asked for OpenAI API key, and for your hobby. Then to start tracking your activity, simply run:
+When first running the script, you will be prompted for your OpenAI API key and your hobby. To start tracking your activity, simply run:
 
     ```bash
     ais
     ```
 
 To stop tracking, use `Ctrl + C`. The script will then analyze your activity and provide a summary.
-
